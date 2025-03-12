@@ -11,6 +11,7 @@ class Solution {
                 max = Math.max(res,max);
                 i++;
             }
+                
             else if(height[i]>=height[j]){
                 res = height[j]*(j-i);
                 max = Math.max(res,max);
