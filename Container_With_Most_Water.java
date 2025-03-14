@@ -10,6 +10,7 @@ class Solution {
                 res = height[i]*(j-i);
                 max = Math.max(res,max);
                 i++;
+                
             }
                 
             else if(height[i]>=height[j]){
