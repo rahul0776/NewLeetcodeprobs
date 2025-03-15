@@ -11,6 +11,7 @@ class Solution {
             res[i] = r*res[i];
             r = r*nums[i];
         }
+        
         return res;       
     }
 }
