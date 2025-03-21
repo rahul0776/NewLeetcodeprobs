@@ -5,6 +5,7 @@ class Solution {
         for(int i = 0; i< nums.length; i++){
             total_sum += nums[i];
         }
+        
         for(int i = 0; i< nums.length; i++){
             if(i!=0){
                 l_sum += nums[i-1];
